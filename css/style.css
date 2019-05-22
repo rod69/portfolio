@@ -1,0 +1,178 @@
+header{
+    background-image: url(../img/workspace.jpg);
+    background-size: cover;
+    height: 800px;
+    text-align:center;
+}
+
+button{
+    background-color: #006e6f !important;
+    position:relative;
+    display:inline-block;
+    float:left;
+    margin: 10px;
+}
+
+/*font-family: 'Gloria Hallelujah', cursive;*/
+/*font-family: 'Permanent Marker', cursive;*/
+/*font-family: 'Kaushan Script', cursive;*/
+
+h1{
+    font-size: 3em;
+    display: inline;
+    color: #fff;
+    margin: auto;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: 2px 6px 6px silver;
+}
+
+body{
+    font-size: 100%;
+    background-color: #202020;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+h2{
+    color: #cef67d;
+    font-size: 7em;
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 280px;
+}
+@media screen and (min-width: 50em) and (max-width: 64em) {
+    h2 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width: 30em) and (max-width: 50em;) {
+    h2 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 30em){
+    h2 {
+        font-size: 1.1em;
+    }
+}
+
+h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #afef2e;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: 2px 6px 6px silver;
+}
+
+p{
+    color: #5e7f90;
+    font-size: 20px;
+    font-family: 'Macondo Swash Caps', cursive;
+    text-align: justify;
+}
+
+/*p:hover{*/
+/*    color: rgb(40,207,40);*/
+/*}*/
+
+a{
+    color: #fff !important;
+}
+a:hover{
+    color: rgb(40,207,40);
+}
+
+footer {
+    background: #72ab00;
+    height: 100px;
+}
+
+span {
+    text-decoration: underline
+}
+
+/**********************************************************************************************************************/
+.nav-link{
+
+}
+
+.logo{
+    width: 100px;
+    height: 120px;
+}
+
+.me{
+    padding-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.folio{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.folio:hover{
+    box-shadow: 0 14px 28px rgba(39,174,96,1.0), 0 10px 10px rgba(46,204,113,1.0);
+    /*    efet petit a petit */
+    transition:0.2s;
+}
+
+.mail{
+    width: 60px;
+    height: 60px;
+}
+
+/*bg navbar*/
+.transparent{
+    background-color: #28cf28;
+    opacity: 0.8;
+}
+
+/*navbar size*/
+.navbar{
+    height : 150px;
+    width: 100%;
+}
+
+/*.color{*/
+/*    background-color: #111e1e;*/
+/*    background-size: cover;*/
+/*    height: 400px;*/
+/*}*/
+
+.sign{
+    text-align: center;
+    font-family: 'Macondo Swash Caps', cursive;
+    color: #fff;
+    padding-top: 30px;
+}
+
+/* Style buttons */
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+/**********************************************************************************************************************/
+
+#contact{
+    border: 2px rgb(40,207,40) solid;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
